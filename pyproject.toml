@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "data_generator"
+version = "0.1.0"
+description = "Quick artificial data generator in python"
+authors = ["Reuben Brasher <rb@terraquantum.swiss>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pytest = "^8.2.0"
+numpy = "^1.26.4"
+pandas = "^2.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
